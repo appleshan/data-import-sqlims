@@ -11,8 +11,10 @@ mvn package
 ** 配置 data-import-sqlims
 
 *** start.bat
-1. set JAVA_INSTALL=C:\jdk\jdk1.8.0_45
-将 jdk 的安装目录 写在 “JAVA_INSTALL=”的后面。
+1. 将 jdk 的安装目录 写在 “JAVA_INSTALL=”的后面。
+#+BEGIN_SRC bat
+set JAVA_INSTALL=C:\jdk\jdk1.8.0_45
+#+END_SRC
 
 2. 用记事本打开该文件，另存为“ANSI”编码。
 
